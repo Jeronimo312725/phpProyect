@@ -22,16 +22,25 @@
           $table = "Usuario";
           $sql = "SELECT * FROM $table WHERE 1";
           $result = mysqli_query($conn, $sql);
-          while($row = mysqli_fetch_array($result));
+          while($row = mysqli_fetch_array($result)){
       ?>
     
+    <tr>
+
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+
+    </tr>
 
 </table>
 
 </body>
 
 <?php
-
+     }
 include_once("../footer.php");
 
 ?>
