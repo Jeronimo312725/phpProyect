@@ -2,6 +2,8 @@
 include_once('../header.php')
 
 ?>
+<?php
+
 $id_reparacion=@$_POST['id_reparacion'];
 $id_usuario2=@$_POST['id_usuario2'];
 $id_PC2=@$_POST['id_PC2'];
@@ -14,7 +16,7 @@ echo $id_usuario2. "<br> <br>";
 echo $id_PC2 ."<br> <br>";  
 echo $fecha. "<br> <br>";  
 echo $descripcion ;
-
+?>
 <?php
 
 
@@ -42,7 +44,7 @@ echo $descripcion ;
            <!-- <th>Total</th>-->
         </tr>
         <?php
-              echo "<td>". $id_reparacion.['id_reparacion']"</td>";
+              echo "<td>". $id_reparacion."</td>";
               echo "<td>".$id_usuario2."</td>";
               echo "<td>".$id_PC2 ."</td>";
               echo "<td>".$fecha."</td>";
