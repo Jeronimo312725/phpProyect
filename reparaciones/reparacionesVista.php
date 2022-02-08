@@ -1,0 +1,52 @@
+<?php
+
+include_once('../header.php')
+?>
+<div class="row"> 
+<div class="offset-md-3 col-md-6">
+<form  action ="reparacionesController.php" method ="post" class="row g-3">
+  <div class="col-md-4">
+    <label for="validationDefault01" class="form-label">Id_reparacion</label>
+    <input type="text" class="form-control" name="id_reparacion" id="validationDefault01"  required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Id_usuario2</label>
+    <input type="text" class="form-control" name="id_usuario2"  id="validationDefault02"  required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">id_PC2</label>
+    <input type="text" class="form-control" name="id_PC2"  id="validationDefault02"  required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Fecha</label>
+    <input type="text" class="form-control" name="fecha"  id="validationDefault02"  required>
+  </div>
+  </div>
+  <div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here"  name="descripcion" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Descripcion</label>
+</div>
+ 
+ 
+    </select>
+  </div>
+ 
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </div>
+</form>
+</div>
+
+
+<?php 
+include_once('../footer.php')
+
+?>

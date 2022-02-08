@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <title>Document</title>
 </head>
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -17,8 +16,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">modificado por mi </a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
@@ -27,12 +27,12 @@
             Dropdown
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="./php/crearUsuario.vista.php">Crear</a></li>
+            <li><a class="dropdown-item" href="./php/CrearUsuarios.vista.php">Crear </a></li>
             <li><a class="dropdown-item" href="#">Buscar</a></li>
             <li><a class="dropdown-item" href="#">Actualizar</a></li>
             <li><a class="dropdown-item" href="#">Eliminar</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider">Ver todo</li>
+            
           </ul>
         </li>
         <li class="nav-item">
