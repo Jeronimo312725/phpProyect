@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "../css/bootstrap.min.css">
     <title>Document</title>
-</head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -46,3 +45,6 @@
     </div>
   </div>
 </nav>
+
+<!-- Se corrige el head en la posicion que va -->
+</head>
