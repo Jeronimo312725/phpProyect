@@ -1,8 +1,10 @@
+
+<!-- Modifico campos de la conexion con su respectiva base de datos -->
 <?php
-$servername = "localhost";
-$database = "pruebaphp";
-$username = "root";
-$password = "";
+$servername = "db4free.net";
+$database = "sgmudev";
+$username = "udev_edu";
+$password = "OscarJavier";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection

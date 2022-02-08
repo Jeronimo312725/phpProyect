@@ -8,7 +8,7 @@
 <body>
    <div class = "row">
        <div class = "offset-md-3 col-6">
-<form class="row g-3 needs-validation" novalidate action="" method="post">
+<form class="row g-3 needs-validation" action="" method="post" novalidate >
   <div class="col-md-6">
     <label for="validationCustom01" class="form-label">Nombre</label>
     <input type="text" class="form-control" name="nombre" required>

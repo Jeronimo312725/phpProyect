@@ -7,8 +7,26 @@
 ?>
 
 <body>
+
+<table class="table table-striped">
+  
+<tr>
+        <td>ID</td>
+        <td>Nombres</td>
+        <td>Apellidos</td>
+        <td>Correo</td>
+        <td>Contraseña</td>
+    </tr>
+
+      <?php
+          $table = "Usuario";
+          $sql = "SELECT * FROM $table WHERE 1";
+          $result = mysqli_query($conn, $sql);
+          while($row = mysqli_fetch_array($result));
+      ?>
     
 
+</table>
 
 </body>
 
