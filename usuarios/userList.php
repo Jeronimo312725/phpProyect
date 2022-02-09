@@ -15,7 +15,7 @@
         <td>Nombres</td>
         <td>Apellidos</td>
         <td>Correo</td>
-        <td>Contraseña</td>
+        <td>Botones</td>
     </tr>
 
       <?php
@@ -24,7 +24,7 @@
           $result = mysqli_query($conn, $sql);
           while($row = mysqli_fetch_array($result)){
       ?>
-    
+      
     <tr>
 
        <td></td>
