@@ -3,7 +3,7 @@
 $servername = "db4free.net";
 $database = "sgmudev";
 $username = "udev_edu";
-$password = "OscarDorado";
+$password = "OscarJavier";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection
