@@ -17,16 +17,12 @@ include_once('../header.php');
             <h1>Crear Reporte</h1>
             <form action = "crearReporte.controller.php" method = "post" class="row g-3">
   <div class="col-md-4">
-    <label for="validationDefault01" class="form-label">ID Reporte</label>
-    <input type="text" class="form-control" name = "id_reporte" id="validationDefault01" required>
+    <label for="validationDefault01" class="form-label">ID Usuario</label>
+    <input type="text" class="form-control" name = "id_usuario1" id="validationDefault01" required>
   </div>
   <div class="col-md-4">
-    <label for="validationDefault02" class="form-label">ID Usuario</label>
-    <input type="text" class="form-control" name = "id_usuario1" id="validationDefault02" required>
-  </div>
-  <div class="col-md-6">
-    <label for="validationDefault03" class="form-label">ID PC</label>
-    <input type="text" class="form-control" name = "id_PC1" id="validationDefault03" required>
+    <label for="validationDefault02" class="form-label">ID PC</label>
+    <input type="text" class="form-control" name = "id_PC1" id="validationDefault02" required>
   </div>
   <div class="col-md-6">
 
