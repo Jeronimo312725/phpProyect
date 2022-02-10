@@ -15,7 +15,7 @@
         <td>Nombres</td>
         <td>Apellidos</td>
         <td>Correo</td>
-        <td>Botones</td>
+        <td>Opciones</td>
     </tr>
 
       <?php
@@ -26,21 +26,25 @@
       ?>
       
     <tr>
-
-       <td></td>
-       <td></td>
-       <td></td>
-       <td></td>
+ 
+       <td><?php echo $row['id_usuario']?></td>
+       <td><?php echo $row['nombre']?></td>
+       <td><?php echo $row['apellido']?></td>
+       <td><?php echo $row['email']?></td>
        <td></td>
 
     </tr>
+
+    <!-- Se repite el ciclo dentro de la tablar para que me cree un espacio con estilo -->
+    <?php
+          }
+    ?>
 
 </table>
 
 </body>
 
-<?php
-     }
-include_once("../footer.php");
 
+<?php
+include_once("../footer.php");
 ?>
