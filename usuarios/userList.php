@@ -31,8 +31,8 @@
        <td><?php echo $row['nombre']?></td>
        <td><?php echo $row['apellido']?></td>
        <td><?php echo $row['email']?></td>
-       <td><a href="crearSala.controller.php?EDITAME=<?php echo $row['id_sala']; ?>" class="btn btn-primary" ><i class="bi bi-pencil"></i></a></td>
-       <td><a href="crearSala.controller.php?EDITAME=<?php echo $row['id_sala']; ?>" class="btn btn-danger" ><i class="bi bi-trash"></i></a></td>
+       <td><a href="crearUser.controller.php?EDITAME=<?php echo $row['id_usuario']; ?>" class="btn btn-primary" ><i class="bi bi-pencil"></i></a></td>
+       <td><a href="crearUser.controller.php?EDITAME=<?php echo $row['id_usuario']; ?>" class="btn btn-danger" ><i class="bi bi-trash"></i></a></td>
        <td></td>
 
     </tr>
