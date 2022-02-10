@@ -31,13 +31,15 @@
        <td><?php echo $row['nombre']?></td>
        <td><?php echo $row['apellido']?></td>
        <td><?php echo $row['email']?></td>
+       <td><a href="crearUser.controller.php?EDITAME=<?php echo $row['id_usuario']; ?>" class="btn btn-primary" ><i class="bi bi-pencil"></i></a></td>
+       <td><a href="crearUser.controller.php?EDITAME=<?php echo $row['id_usuario']; ?>" class="btn btn-danger" ><i class="bi bi-trash"></i></a></td>
        <td></td>
 
     </tr>
 
-    <!-- Se repite el ciclo dentro de la tablar para que me cree un espacio con estilo -->
+    <!-- Se repite el ciclo dentro de la tabla para que me cree un espacio con estilo -->
     <?php
-          }
+        }
     ?>
 
 </table>
