@@ -8,7 +8,7 @@
 <body>
    <div class = "row">
        <div class = "offset-md-3 col-6">
-<form class="row g-3 needs-validation" action="" method="post" novalidate >
+<form class="row g-3 needs-validation" action="controlador.php" method="post" novalidate >
   <div class="col-md-6">
     <label for="validationCustom01" class="form-label">Nombre</label>
     <input type="text" class="form-control" name="nombre" required>
@@ -25,21 +25,19 @@
   </div>
   <div class="col-mb-3">
     <label for="validationCustom3" class="form-label">Correo</label>
-    <input type="email" class="form-control" case="correo" require>
+    <input type="email" class="form-control" name="correo" require>
     <div id="emailHelp" class="form-text">Ingrese su correo</div>
 </div>
-  <div  class="col-md-6">
-  <div class="mb-3">
+  <div class="mb-6">
     <label for="exampleInputPassword1" class="form-label">Contraseña</label>
     <input type="password" class="form-control" name="password" require>
     <div class="valid-feedback">
         Ingrese su contraseña
         </div>
     </div>
-  </div>
-  <div class="col-md-9">
+  <div class="col-md-3">
     <label for="validationCustom04" class="form-label">Tipo de usuario</label>
-    <select class="form-select" case="tipoUser" required>
+    <select class="form-select" name="tipoUser" required>
       <option selected disabled value="">Seleccione</option>
       <option>Administrador</option>
       <option>Plantel educativo</option>
