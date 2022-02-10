@@ -34,9 +34,9 @@
                 <div class="col-md-4">
                     <label for="validationCustom03" class="form-label">Lugar ubicado:</label>
                     <select name="sala" class="form-select">
-                    <option selected>Sala 1</option>
-                    <option>Sala 2</option>
-                    <option>Sala 3</option>
+                    <option selected value="1">Sala 1</option>
+                    <option value="2">Sala 2</option>
+                    <option value="3">Sala 3</option>
                     <option>Sala 4</option>
                     <option>Sala 5</option>
                     <option>Sala 6</option>
