@@ -35,9 +35,9 @@
 
     </tr>
 
-    <!-- Se repite el ciclo dentro de la tablar para que me cree un espacio con estilo -->
+    <!-- Se repite el ciclo dentro de la tabla para que me cree un espacio con estilo -->
     <?php
-          }
+        }
     ?>
 
 </table>
