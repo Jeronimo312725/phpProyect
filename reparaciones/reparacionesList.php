@@ -45,6 +45,8 @@ echo $descripcion ;
             <th>id_PC2</th>
             <th>Fecha</th>
             <th>Descripcion</th>
+            <th>Editar</th>
+            <th>Eliminar</th>
            <!-- <th>Total</th>-->
         </tr>
   </body>
@@ -52,26 +54,27 @@ echo $descripcion ;
             $table = "reparacion";
             $sql = "SELECT * FROM $table WHERE 1";
             $result = mysqli_query($conn, $sql);
-            while($row = mysqli_fetch_array($result));
-          ?>
-        {
+            while($row = mysqli_fetch_array($result)){
+         
+        ?>
 
         
            <tr class='row100'>
            <td style ='width:10px'><?php echo $row ['id_reparacion'];?></td>
            <td ><?php echo $row ['id_usuario2'];?></td>
            <td ><?php echo $row ['id_PC2'];?></td>
-           <td ><?php echo $row ['id_fecha'];?></td>
+           <td ><?php echo $row ['fecha'];?></td>
            <td ><?php echo $row ['descripcion'];?></td>
-           
-           
+           <td><a  href="reparacionesController.php=<?php echo $row['id_reparacion']; ?>" class="btn btn-primary" ><i class="bi bi-pencil"></i></a></td>
+           <td><a  href="reparacionesController.php?EDITAME=<?php echo $row['id_reparacion']; ?>" class="btn btn-danger" ><i class="bi bi-trash"></i></a></td>
+          }
            </tr>
          
        
 
 
 <?php 
-}
+        }
 include_once('../footer.php')
 
 ?>
