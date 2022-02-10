@@ -3,10 +3,6 @@
 include_once('../conexion.php');
 include_once('../header.php');
 
-
-
-
-
 // $conn = mysqli_connect("db4free.net", "udev_edu", "OscarJavier", "sgmudev");
 
 // if($conn === false){
@@ -15,11 +11,6 @@ include_once('../header.php');
 //             .mysqli_connect_error());
 
 // }
-
-
-
-
-
 
 $statement = $conn->prepare("insert into computador (id_computador, id_sala1, sistema_operativo, motherboard,
     ram, velocidad_ram, procesador, tipo_graficos, capacidad_disco, mouse, teclado, estado_panel_frontal, lectora_cd, ventiladores,
