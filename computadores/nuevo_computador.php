@@ -13,7 +13,7 @@
 
         <h2>Nuevo computador</h2>
 
-            <form class="row g-3 my-3" action="ctrl_computador.php" action="post">
+            <form class="row g-3 my-3" action="ctrl_computador.php" method="post">
 
                 <div class="col-md-2">
                     <label for="validationCustom01" class="form-label">Identificador del PC</label>
