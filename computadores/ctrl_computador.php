@@ -47,9 +47,9 @@ $statement->bind_param(
 $idcomputador = $_REQUEST['id_pc'];
 $sistema_operativo = $_REQUEST['so_pc'];
 $idsala = $_REQUEST['sala'];
-$motherboard = ['mobo_pc'];
+$motherboard = $_REQUEST['mobo_pc'];
 $ram = $_REQUEST['cantidad_ram'];
-$velocidadram = ['velocidad_ram'];
+$velocidadram = $_REQUEST['velocidad_ram'];
 $procesador = $_REQUEST['procesador'];
 $tipograficos = $_REQUEST['tipo_graficos'];
 $capacidaddiscoduro = $_REQUEST['capacidad_disco'];
@@ -83,6 +83,6 @@ $conn->close();
 
 // mysqli_close($conn);
 
-
+header("location:listado_computadores.php");
 
 include_once('../footer.php');
